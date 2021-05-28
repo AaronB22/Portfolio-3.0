@@ -1,0 +1,424 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:silver;
+}
+.head{
+    font-size: 100px;
+}
+.navv{
+    position: relative;
+    bottom: 30px;
+}
+
+
+.sideBarLeft{
+    margin-top: 0px;
+    position: absolute;
+    /* bottom: 10px; */
+width: 15%;
+height:2500px ;
+background-color: skyblue;
+top: -50px;
+z-index: -1;
+
+}
+
+.sideBarRight{
+    margin-top: 0px;
+    position: absolute;
+   
+width: 15%;
+height:2500px ;
+background-color: skyblue;
+top: -50px;
+margin-left:85%;
+z-index: -1;
+}
+
+
+
+
+.mainAboutMeBlock{
+
+    height: 600px;
+    background-color: #e9ecef;
+    padding: 10px;
+    padding-left: 10px;
+    /* border: 5px solid darkgray; */
+    border-radius: 5%;
+    
+}
+.banner-List{
+display: flex;
+margin: 30px;
+
+}
+.banner-List li {
+    display: inline;
+}
+.abli{
+    color: skyblue;
+margin:50px ;
+font-size: 40px;
+text-decoration: darkblue underline;
+z-index: 2;
+}
+
+.prli{
+    color: skyblue;
+    margin:50px ;
+    font-size: 40px;
+    text-decoration: darkblue underline;
+    z-index: 2;
+}
+
+.SmallText{
+font-size: 25px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contBtn{
+  
+    color:skyblue;
+    
+    height: 70px;
+    font-size: 40px;
+    width: 500px;
+    padding: 0%;
+}
+.infoList{
+    position: relative;
+    left: 10px;
+}
+
+
+.myInfo{
+    height: 300px;
+    background-color: gray;
+    border: 5px solid skyblue;
+    margin-left:30px ;
+    margin-right: 40px;
+
+}
+
+.myCoding{
+    position: relative;
+    height: 300px;
+    background-color:gray;
+    border: 5px solid skyblue;
+    
+    
+}
+
+.libraries{
+margin-left: 30%;
+
+}
+.skill-list{
+    position: relative;
+    margin-left: 10%;
+    
+    top: 50px;
+    
+ 
+}
+.myBio{
+    margin-top: 50px;
+    height: 150px;
+    background-color: gray;
+    border: 5px solid skyblue;
+}
+.sideText{
+ font-size: 30px;
+font-weight: bolder;
+/* margin-left: 30px; */
+margin-left: 10px;
+
+font-style: italic;
+text-decoration: blue underline;
+}
+.projectBlock{
+    background-color: #e9ecef;
+}
+
+.bottomBlockText{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+.midBlockText{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+.topBlockText{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+
+.mainBlock{
+    padding:0px;
+    width: 1000px;
+    border:5px solid skyblue;
+    height:500px ;
+    margin: 25px auto;
+    padding: 0px;
+}
+.leftBlock{
+    width: 1000px;
+    border:5px solid skyblue;
+    border-right: 2.5px solid skyblue;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rightBlock{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    border:5px solid skyblue;
+    border-left:2.5px solid skyblue;
+}
+
+@media screen and (max-width: 1250px){
+    .infoList{
+        position: relative;
+        top:30px
+    }
+.myCoding{
+    position: relative;
+    margin-top: 40px;
+    width: 150px;
+   left: 10%;
+    
+
+}
+.myBio{
+    position: relative; 
+    margin-bottom: 40px;
+    height: 150px;
+}
+.mainAboutMeBlock{
+    height: 900px;
+}
+.abli{
+    font-size: 30px;
+}
+.prli{
+    font-size: 30px;
+}
+}
+@media screen and (max-width: 1000px){
+.mainBlock{
+    height: 250px;
+    width: 500px;
+}
+.leftBlock{
+    height: 300px;
+    width: 500px;
+}
+.rightBlock{
+    height: 300px;
+    width: 500px;
+}
+.abli{
+    font-size:30px
+}
+.prli{
+    font-size: 30px;
+}
+
+.sideBarLeft{
+    width: 20px;
+}
+.sideBarRight{
+    width: 20px;
+    margin-left: 98%;
+}
+.myInfo{
+    height: 300px;
+    width: 500px;
+}
+.myCoding{
+    width: 400px;
+}
+.myBio{
+    height: 200px;
+}
+
+}
+
+@media screen and (max-width: 800px){
+
+.mainBlock{
+    height: 350px;
+    width: 350px;
+}
+
+.leftBlock{
+    height: 350px;
+    width: 350px;
+}
+.rightBlock{
+    height: 350px;
+    width: 350px;
+}
+.myBio{
+    height: 200px;
+}
+.mainAboutMeBlock{
+    margin-bottom: 20px;
+    height: 950px;
+}
+}
+
+@media screen and (max-width: 700px){
+    .abli{
+        display: flex;
+        flex-direction: column;
+        font-size: 40px;
+   
+        
+    }
+    .prli{
+        display: flex;
+        flex-direction: column;
+        font-size: 40px;
+    }
+    .sideBarLeft{
+        display: none;
+    }
+    .sideBarRight{
+        display: none;
+    }
+    .myBio{
+        height: 350px;
+    }
+.infoList{
+    margin-left: 20%;
+}
+.mainAboutMeBlock{
+    height: 1150px;
+    background-color:silver;
+}
+.mainBlock{
+    width: 350px;
+    height: 350px;
+}
+.projectBlock{
+    background-color:silver;
+}
+.leftBlock{
+    width: 350px;
+    height: 350px;
+}
+.rightBlock{
+    width: 350px;
+    height: 350px;
+}
+.banner-List{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 25%;
+}
+.infoList{
+    position: relative;
+    left:-25px
+}
+.contBtn{
+    position: relative;
+    display: flex;
+    left:100px ;
+    width: 250px;
+}
+}
+
+@media screen and (max-width: 500px){
+    .abli{
+        display: flex;
+        flex-direction: column;
+        font-size: 40px;
+        
+    }
+    .prli{
+        display: flex;
+        flex-direction: column;
+        font-size: 40px;
+    }
+    
+    .myInfo{
+        position: relative; left: 10px;
+        font-size: 14px;
+        height: 300px;
+    }
+    .myCoding{
+        
+        width: 1000px;
+    }
+    .myBio{
+        height: 350px;
+    }
+    
+    
+    .mainBlock{
+        width:400px;
+        margin: 0;
+        position: relative;
+        right: 35px;
+    }
+   
+}
+
+@media screen and (max-width: 400px){
+    .contBtn{
+        width: 250px;
+        font-size: 30px;
+        position: relative;
+       left: 0px;
+    }
+    .mainAboutMeBlock{
+        height: 1600px;
+    }
+    .myInfo{
+        margin: 0;
+        position: relative;
+        left: 0px;
+    }
+    .myCoding{
+        width: 200px;
+        height: 400px;
+        font-size: 20px;
+    }
+    .myBio{
+        font-size: 24px;
+        height: 700px;
+    }
+    .mainBlock{
+        margin: 0px;
+        width: 200px;
+        height: 200px;
+    }
+    .rightBlock{
+        margin: 0px;
+        width: 200px;
+        height: 200px;
+    }
+    .leftBlock{
+        margin: 0px;
+        width: 200px;
+        height: 200px;
+    }
+    .abli{
+        margin: 0%;
+        width: 200px;
+    }
+    .prli{
+        margin: 0%;
+        width: 200px;
+    }
+
+}
